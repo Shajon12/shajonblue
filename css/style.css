@@ -1,0 +1,280 @@
+/* We Understand Your Dream And Your Work and like it your own dream. */
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+#main-header {
+  position: relative;
+  background: #0c1228;
+  border-bottom: 2px solid #0c61df;
+  overflow: hidden;
+}
+a.navbar-brand {
+  text-align: center;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 14px;
+  width: 85px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+.navbar-nav .nav-item:last-child {
+  margin-right: 0px;
+}
+.navbar-nav .nav-item a {
+  display: block;
+  color: rgb(245, 245, 245);
+}
+.navbar-nav .nav-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 163, 218);
+  left: -100%;
+  transition: 1s;
+  cursor: pointer;
+  z-index: -1;
+}
+.navbar-nav .nav-item:hover:before {
+  left: 0%;
+  z-index: -1;
+}
+/* particles css start ************************************ */
+div#particles-js {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #0c1228;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.main-text h3 {
+  font-size: 40px;
+  color: #0c61df;
+  height: 55px;
+  font-weight: bold;
+}
+
+.main-text span {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.typed-cursor {
+  display: none;
+}
+
+/* button design  */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.btn-group .left-btn {
+  width: 120px;
+  padding: 8px;
+  margin-right: 10px;
+  background: #0c61df;
+  color: #f7f7f7;
+  transition: 1s;
+  font-weight: 500;
+  border: 1px solid cornflowerblue;
+}
+
+.btn-group .left-btn:hover {
+  background: transparent;
+  color: white;
+}
+
+.btn-group .right-btn {
+  padding: 8px;
+  width: 130px;
+  border: 1px solid cornflowerblue;
+  background: transparent;
+  color: white;
+}
+/* about us area start  */
+p.about-text {
+  padding: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+}
+.about-img {
+  position: relative;
+}
+.about-img img {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+.imgicon {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  font-size: 42px;
+  color: #0c61df;
+}
+/* services area style  */
+.services-box {
+  padding: 20px;
+  text-align: center;
+}
+.text-center h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: cornflowerblue;
+}
+
+.services-box .web-de,
+.web-dev,
+.wp,
+.cmd-dev,
+.d-mar,
+.seo {
+  font-size: 35px;
+  color: cornflowerblue;
+}
+
+.services-box h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #a1a1a1;
+}
+.services-box p {
+  font-size: 14px;
+}
+.about-title {
+  margin: 40px 0px 5px 0px;
+}
+/* counter area  */
+section#counter-section {
+  background-image: url("../Images/canvasbg.jpg");
+  background-size: cover;
+}
+.counter-box {
+  padding: 20px;
+  border: 1px solid cornflowerblue;
+}
+
+.counter-box h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.counter-icon {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+
+.counter-box #done,
+#consult,
+#happy,
+#award {
+  font-size: 30px;
+  color: white;
+}
+
+/* contact us css  ************************************************/
+.form-control:focus {
+  border-color: 1px solid green;
+  background: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+::placeholder {
+  font-size: 12px;
+  color: #000000;
+  font-weight: bold;
+}
+.username label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.email label {
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+.messege label {
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+button.mybtn {
+  font-weight: bold;
+  width: 120px;
+  font-size: 12px;
+  border: navajowhite;
+  padding: 10px 0px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: rgb(247, 241, 241);
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+  background: rgb(2, 30, 83);
+}
+
+button.mybtn:before {
+  content: "";
+  transition: 1s;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: -100%;
+  background: #000000;
+  height: 100%;
+  border-radius: 50px;
+  z-index: -1;
+}
+button.mybtn:hover {
+  color: white;
+}
+button.mybtn:hover::before {
+  left: 0%;
+  z-index: -1;
+}
+.nameErr,
+.emailErr,
+.messegeErr {
+  font-size: 12px;
+  margin-top: 10px;
+  color: red;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+}

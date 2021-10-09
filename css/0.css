@@ -1,0 +1,22 @@
+@media (max-width: 480px) {
+  .navbar-nav {
+    display: grid;
+    place-items: center;
+  }
+  .navbar-toggler {
+    width: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .navbar-toggler span {
+    font-size: 20px;
+    color: #0095da;
+    margin-top: 7px;
+  }
+  button.navbar-toggler {
+    border: none !important;
+  }
+}

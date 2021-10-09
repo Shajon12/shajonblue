@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    display: grid;
+    place-items: center;
+  }
+  .navbar-toggler {
+    width: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .navbar-toggler span {
+    font-size: 20px;
+    color: #0095da;
+    margin-top: 7px;
+  }
+  button.navbar-toggler {
+    border: none !important;
+  }
+  .main-text {
+    width: 80%;
+  }
+  .main-text h3 {
+    font-size: 17px;
+    height: 8px;
+  }
+
+  .main-text span {
+    font-size: 7px;
+  }
+
+  .about-img img {
+    margin-bottom: -20px;
+  }
+
+  .counter-box {
+    margin-bottom: 30px;
+  }
+
+  .services-box p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .services-box h2 {
+    font-size: 20px;
+  }
+
+  .text-center span {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .btn-group .left-btn {
+    width: 100px;
+    padding: 4px;
+  }
+
+  .btn-group .right-btn {
+    padding: 0;
+    width: 90px;
+  }
+
+  .btn-group {
+    margin-top: 10px;
+  }
+}

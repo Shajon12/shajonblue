@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav {
+    display: grid;
+    place-items: center;
+  }
+  .navbar-toggler {
+    width: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .navbar-toggler span {
+    font-size: 20px;
+    color: #0095da;
+    margin-top: 7px;
+  }
+  button.navbar-toggler {
+    border: none !important;
+  }
+  .main-text h3 {
+    font-size: 24px;
+    height: 25px;
+  }
+
+  .main-text span {
+    font-size: 19px;
+  }
+
+  .services-box p {
+    margin: 0;
+    font-size: 9px;
+    text-align: -webkit-center;
+  }
+
+  .services-box .web-de,
+  .web-dev,
+  .wp,
+  .cmd-dev,
+  .d-mar,
+  .seo {
+    font-size: 18px;
+  }
+
+  .counter-box h2 {
+    font-size: 12px;
+  }
+
+  .counter-icon {
+    font-size: 26px;
+  }
+  .services-box h2 {
+    font-size: 20px;
+  }
+}
